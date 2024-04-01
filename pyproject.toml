@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "vet"
-version = "0.1.0"
-description = ""
+version = "0.1.1-post4"
+description = "A poetry plugin for establishing chain of trust"
 authors = ["Rafael Irgolic <hello@irgolic.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 poetry = "^1.8.2"
 msgspec = "^0.18.6"
 tomli-w = "^1.0.0"
