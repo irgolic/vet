@@ -2,10 +2,13 @@
 
 # `vet`
 
+[![Discord](https://badgen.net/badge/icon/discord?icon=nope&label&color=purple)](https://discord.gg/caeTPJDMZj)
+
 A poetry plugin for establishing chain of trust  
 Inspired by [cargo-vet](https://github.com/mozilla/cargo-vet)
 
 </div>
+
 
 ```
 > poetry vet
