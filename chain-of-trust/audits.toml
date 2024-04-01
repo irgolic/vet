@@ -1,0 +1,4 @@
+[audits.poetry]
+who = "Rafael Irgolic <hello@irgolic.com>"
+status = "safe to deploy"
+version = "1.8.2"

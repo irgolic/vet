@@ -1,0 +1,221 @@
+[imports]
+
+[exemptions.build]
+version = "1.2.1"
+status = "safe to run"
+
+[exemptions.cachecontrol]
+version = "0.14.0"
+status = "safe to run"
+
+[exemptions.certifi]
+version = "2024.2.2"
+status = "safe to run"
+
+[exemptions.cffi]
+version = "1.16.0"
+status = "safe to run"
+
+[exemptions.charset-normalizer]
+version = "3.3.2"
+status = "safe to run"
+
+[exemptions.cleo]
+version = "2.1.0"
+status = "safe to run"
+
+[exemptions.colorama]
+version = "0.4.6"
+status = "safe to run"
+
+[exemptions.crashtest]
+version = "0.4.1"
+status = "safe to run"
+
+[exemptions.cryptography]
+version = "42.0.5"
+status = "safe to run"
+
+[exemptions.distlib]
+version = "0.3.8"
+status = "safe to run"
+
+[exemptions.dulwich]
+version = "0.21.7"
+status = "safe to run"
+
+[exemptions.exceptiongroup]
+version = "1.2.0"
+status = "safe to run"
+
+[exemptions.fastjsonschema]
+version = "2.19.1"
+status = "safe to run"
+
+[exemptions.filelock]
+version = "3.13.3"
+status = "safe to run"
+
+[exemptions.idna]
+version = "3.6"
+status = "safe to run"
+
+[exemptions.importlib-metadata]
+version = "7.1.0"
+status = "safe to run"
+
+[exemptions.iniconfig]
+version = "2.0.0"
+status = "safe to run"
+
+[exemptions.installer]
+version = "0.7.0"
+status = "safe to run"
+
+[exemptions.jaraco-classes]
+version = "3.4.0"
+status = "safe to run"
+
+[exemptions.jeepney]
+version = "0.8.0"
+status = "safe to run"
+
+[exemptions.keyring]
+version = "24.3.1"
+status = "safe to run"
+
+[exemptions.more-itertools]
+version = "10.2.0"
+status = "safe to run"
+
+[exemptions.msgpack]
+version = "1.0.8"
+status = "safe to run"
+
+[exemptions.msgspec]
+version = "0.18.6"
+status = "safe to run"
+
+[exemptions.nodeenv]
+version = "1.8.0"
+status = "safe to run"
+
+[exemptions.packaging]
+version = "24.0"
+status = "safe to run"
+
+[exemptions.pexpect]
+version = "4.9.0"
+status = "safe to run"
+
+[exemptions.pkginfo]
+version = "1.10.0"
+status = "safe to run"
+
+[exemptions.platformdirs]
+version = "4.2.0"
+status = "safe to run"
+
+[exemptions.pluggy]
+version = "1.4.0"
+status = "safe to run"
+
+[exemptions.poetry]
+version = "1.8.2"
+status = "safe to run"
+
+[exemptions.poetry-core]
+version = "1.9.0"
+status = "safe to run"
+
+[exemptions.poetry-plugin-export]
+version = "1.7.1"
+status = "safe to run"
+
+[exemptions.ptyprocess]
+version = "0.7.0"
+status = "safe to run"
+
+[exemptions.pycparser]
+version = "2.22"
+status = "safe to run"
+
+[exemptions.pyproject-hooks]
+version = "1.0.0"
+status = "safe to run"
+
+[exemptions.pyright]
+version = "1.1.356"
+status = "safe to run"
+
+[exemptions.pytest]
+version = "8.1.1"
+status = "safe to run"
+
+[exemptions.pywin32-ctypes]
+version = "0.2.2"
+status = "safe to run"
+
+[exemptions.rapidfuzz]
+version = "3.7.0"
+status = "safe to run"
+
+[exemptions.requests]
+version = "2.31.0"
+status = "safe to run"
+
+[exemptions.requests-toolbelt]
+version = "1.0.0"
+status = "safe to run"
+
+[exemptions.ruff]
+version = "0.3.4"
+status = "safe to run"
+
+[exemptions.secretstorage]
+version = "3.3.3"
+status = "safe to run"
+
+[exemptions.setuptools]
+version = "69.2.0"
+status = "safe to run"
+
+[exemptions.shellingham]
+version = "1.5.4"
+status = "safe to run"
+
+[exemptions.tomli]
+version = "2.0.1"
+status = "safe to run"
+
+[exemptions.tomli-w]
+version = "1.0.0"
+status = "safe to run"
+
+[exemptions.tomlkit]
+version = "0.12.4"
+status = "safe to run"
+
+[exemptions.trove-classifiers]
+version = "2024.3.25"
+status = "safe to run"
+
+[exemptions.typing-extensions]
+version = "4.10.0"
+status = "safe to run"
+
+[exemptions.urllib3]
+version = "2.2.1"
+status = "safe to run"
+
+[exemptions.virtualenv]
+version = "20.25.1"
+status = "safe to run"
+
+[exemptions.xattr]
+version = "1.1.0"
+status = "safe to run"
+
+[exemptions.zipp]
+version = "3.18.1"
+status = "safe to run"

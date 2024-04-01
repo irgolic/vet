@@ -1,0 +1,67 @@
+{
+  "$ref": "#/$defs/TopLevelConfig",
+  "$defs": {
+    "TopLevelConfig": {
+      "title": "TopLevelConfig",
+      "type": "object",
+      "properties": {
+        "imports": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Import"
+          },
+          "default": {}
+        },
+        "exemptions": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Exemption"
+          },
+          "default": {}
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "Import": {
+      "title": "Import",
+      "description": "Import someone else's audits file",
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "Exemption": {
+      "title": "Exemption",
+      "description": "Exempt a package from audits",
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/AuditStatus"
+        }
+      },
+      "required": [
+        "version",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "AuditStatus": {
+      "title": "AuditStatus",
+      "enum": [
+        "safe to deploy",
+        "safe to run",
+        "unsafe"
+      ]
+    }
+  }
+}
