@@ -7,6 +7,18 @@ Inspired by [cargo-vet](https://github.com/mozilla/cargo-vet)
 
 </div>
 
+```
+> poetry vet
+...
+👍 pexpect-4.9.0 matches exemption
+👍 pkginfo-1.10.0 matches exemption
+✅ platformdirs-4.2.0 passes our audit
+✅ pluggy-1.4.0 passes our audit
+✅ poetry-1.8.2 passes audit by TrustedOrg
+✅ pyright-1.1.356 passes audit by OtherTrustedOrg
+...
+```
+
 ## Installation
 
 Depending on how you installed poetry, you may need to install `vet` in a different way.
