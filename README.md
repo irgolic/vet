@@ -22,6 +22,19 @@ Inspired by [cargo-vet](https://github.com/mozilla/cargo-vet)
 ...
 ```
 
+## Background
+
+After details of the [xz backdoor](https://boehs.org/node/everything-i-know-about-the-xz-backdoor) came out, 
+I thought we needed better visibility into our dependency trees.
+
+This first iteration of `vet` is an MVP.
+Should `vet` accrue interest, next steps are:
+- [ ] Support for auditing version deltas
+- [ ] CLI tools for auditing and importing audits (instead of manual editing)
+- [ ] More robust testing
+
+If you're interested in `vet`, or more generally in securing software supply chains, reach out on [Discord](https://discord.gg/caeTPJDMZj).
+
 ## Installation
 
 Depending on how you installed poetry, you may need to install `vet` in a different way.
@@ -94,12 +107,3 @@ This will download the audits from the trusted sources specified in the `config.
 ### Auditing
 
 Audit dependencies manually by adding entries in the `audits.toml` file as per the example in [the generated README](chain-of-trust/README.md#audit-file-auditstoml).
-
-## Background
-
-After details of the [xz backdoor](https://boehs.org/node/everything-i-know-about-the-xz-backdoor) came out, 
-I thought we needed better visibility into our dependency trees.
-
-If this project "takes off", next steps are:
-- [ ] CLI tools for auditing and importing audits (instead of manual editing)
-- [ ] More robust testing
