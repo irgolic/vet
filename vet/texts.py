@@ -1,4 +1,4 @@
-from typing_extensions import assert_never
+from typing import TYPE_CHECKING
 
 
 from vet.models.audits import AuditStatus
@@ -46,7 +46,11 @@ macros), reasonable usage of the crate should output code which meets the above
 criteria.
 """
     else:
-        assert_never(audit_status)
+        if TYPE_CHECKING:
+            from typing_extensions import assert_never
+
+            assert_never(audit_status)
+        raise ValueError(f"Unhandled audit status: {audit_status}")
 
 
 class StartInspectText(StrictStruct):

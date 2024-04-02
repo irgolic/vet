@@ -10,7 +10,6 @@ python = "^3.10"
 poetry = "^1.8.2"
 msgspec = "^0.18.6"
 tomli-w = "^1.0.0"
-typing-extensions = "^4.10.0"
 
 
 [tool.poetry.group.test.dependencies]
@@ -20,6 +19,8 @@ pytest = "^8.1.1"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.4"
 pyright = "^1.1.356"
+typing-extensions = "^4.10.0"
+
 
 [build-system]
 requires = ["poetry-core"]

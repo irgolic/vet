@@ -1,5 +1,5 @@
 import os
-from typing_extensions import assert_never
+from typing import TYPE_CHECKING
 
 import msgspec.toml
 import requests
@@ -186,7 +186,11 @@ class Commands:
         elif status == AuditStatus.UNSAFE:
             return False
         else:
-            assert_never(status)
+            if TYPE_CHECKING:
+                from typing_extensions import assert_never
+
+                assert_never(status)
+            raise ValueError(f"Unhandled audit status: {status}")
 
     def _check_exemptions(
         self,
